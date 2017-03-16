@@ -34,3 +34,7 @@ Waar in ieder geval een kritiekpunt op is na dit onderzoek is de hover-state van
 Er is gebruik gemaakt van semantische HTML, met betekenisvolle HTML-tags als `input`, `a` en `select`. Bovendien zijn alle hover- en focus-states gestyled. Daarmee is de app met gemak te besturen met het toetsenbord en bovendien toegankelijk.
 
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/muistrack.png?raw=true)
+
+### Getest in:
+- Google Chrome versie 56
+- Firefox 46.0.1 
