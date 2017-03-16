@@ -1,4 +1,4 @@
-#Progressive Enhancement Funda App
+# Progressive Enhancement Funda App
 
 ## 1. Afbeeldingen
 Bij aanvang van dit onderzoek zijn de afbeeldingen uitgezet via de instellingen van de browser. Wat direct opviel is dat de afbeeldingen geen alt-attribuut hebben meegekregen, waardoor je niet kunt zien om wat voor afbeelding het oorspronkelijk ging.
@@ -31,6 +31,6 @@ Met behulp van de tool Sim Daltonism wordt getest hoe kleurblinden de website zi
 Waar in ieder geval een kritiekpunt op is na dit onderzoek is de hover-state van de items. Die zijn te subtiel om altijd goed te kunnen zien.
 
 ## 5. Muis/trackpad
-Er is gebruik gemaakt van semantische HTML, met betekenisvolle HTML-tags als <input>, <a> en <select>. Bovendien zijn alle hover- en focus-states gestyled. Daarmee is de app met gemak te besturen met het toetsenbord en bovendien toegankelijk.
+Er is gebruik gemaakt van semantische HTML, met betekenisvolle HTML-tags als `input`, `a` en `select`. Bovendien zijn alle hover- en focus-states gestyled. Daarmee is de app met gemak te besturen met het toetsenbord en bovendien toegankelijk.
 
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/muistrack.png?raw=true)
