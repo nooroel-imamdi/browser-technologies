@@ -26,7 +26,7 @@ Het overwegen van de toepasbaarheid van een JavaScript library is afhankelijk of
 ## Website uit directe omgeving met problemen
 
 ### JavaScript
-####Voetbalzone: 
+#### Voetbalzone: 
 login werkt niet, essentieel om in te loggen met mee te kunnen praten over voetbal; de slogan van de website.
 tab onder ‘wedstrijden werkt niet’
 
