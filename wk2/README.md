@@ -120,7 +120,7 @@ Getest in:
 - Firefox (feature)
 - Safari (feature)
 
-De fallback bleek niet te werken in Firefox en Safari.
+De fallback bleek niet te werken in Firefox (niet volledig) en Safari.
 
 
 #### Fallback
