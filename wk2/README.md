@@ -13,6 +13,13 @@ Het HTML-element `<datalist>` bevat een reeks `<option>` elementen waarnaar verw
 
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk2/caniuse-datalist.png?raw=true)
 
+
+Getest in:
+- Google Chrome (Datalist & Fallback werkt)
+- Firefox (Datalist & Fallback werkt)
+- Safari (Alleen Fallback werkt)
+
+
 #### Fallback
 Indien het `<datalist>` element niet ondersteund wordt, dan is het nog altijd mogelijk om het input-veld in te vullen. De essentie, namelijk het invoeren van informatie, blijft gehandhaafd. De ‘luxe’ suggesties ontbreken slechts.
 
@@ -33,6 +40,12 @@ De HTML `<details>` element wordt gebruikt als beschrijving-widget waaruit de ge
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk2/caniuse-details.png?raw=true)
 
 
+Getest in:
+- Google Chrome
+- Firefox
+- Safari
+
+
 Live demo: - https://cdn.rawgit.com/nooroel-imamdi/browser-technologies/master/wk2/html/details.html
 
 
@@ -49,6 +62,12 @@ CSS variabelen zijn entiteiten die worden gedefinieerd door de developer die de 
 #### Ondersteunende browsers
 
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk2/caniuse-cssvar.png?raw=true)
+
+
+Getest in:
+- Google Chrome (feature & fallback)
+- Firefox (feature & fallback)
+- Safari (feature & fallback)
 
 
 #### Fallback
@@ -75,6 +94,12 @@ De `@supports` gaat op dezelfde manier te werk als de `@media’ queries. Er kan
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk2/caniuse-supports.png?raw=true)
 
 
+Getest in:
+- Google Chrome (feature & fallback)
+- Firefox (feature & fallback)
+- Safari (feature & fallback)
+
+
 #### Fallback
 Indien `@supports` niet wordt ondersteund, dan valt deze terug op eigenschappen en waarden die wel worden ondersteund. De fallback is dan dat er in CSS regels worden geschreven die door oudere browsers ondersteund worden, zodat in gevallen dat `@supports` niet wordt ondersteund daarop terug kan worden gevallen.
 
@@ -88,6 +113,14 @@ Live demo: - https://cdn.rawgit.com/nooroel-imamdi/browser-technologies/master/w
 Het dropdown-menu verschijnt zodra de gebruiker op de menu-knop klikt of tapt. Deze techniek wordt veel gebruikt voor mobiele weergaves van websites. Deze techniek wordt veelal toegepast met JavaScript. 
 
 - https://minor-everything-web.slack.com/files/jasper_voorhoede/F4N4UUYEA/2017-03-theme-parks-for-the-web.key
+
+
+Getest in:
+- Google Chrome (feature & fallback)
+- Firefox (feature)
+- Safari (feature)
+
+De fallback bleek niet te werken in Firefox en Safari.
 
 
 #### Fallback
@@ -104,6 +137,12 @@ Met behulp van smooth scrolling kan de gebruiker met JavaScript op een soepele m
 
 - https://css-tricks.com/snippets/jquery/smooth-scrolling/
 - http://codepen.io/chriscoyier/pen/dpBMVP
+
+
+Getest in:
+- Google Chrome (feature & fallback)
+- Firefox (feature & fallback)
+- Safari (feature & fallback)
 
 
 #### Fallback
