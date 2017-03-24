@@ -19,11 +19,13 @@
 		body{
 			background: #F0F0F0;
 		}
-		ul.menu{
-			display: none;
-		}
 		button.nav-toggle:focus + ul.menu{
 			display: block;
+			visibility: visible;
+		}
+		button.nav-toggle + ul.menu{
+			display: none;
+			visibility: hidden;
 		}
 		.js .menu {
 			overflow: hidden;
@@ -43,11 +45,10 @@
 			<li><a href="#0">three</a></li>
 			<li><a href="#0">four</a></li>
 			<li><a href="#0">five</a></li>
-			<button class="close">close</button>
 		</ul>
 		
 	</nav>
-	<script>
+	<!-- <script>
 		document.documentElement.className = "js";
 
 		var menu = document.querySelector( '.menu' ),
@@ -155,6 +156,6 @@
 		})( window );
 
 		//https://codepen.io/jacmaes/pen/GFDEK
-	</script>
+	</script> -->
 </body>
 </html>
