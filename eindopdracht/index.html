@@ -5,37 +5,37 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Mijn boodschappenlijstje</title>
 	<link rel="stylesheet" href="css/style.css">
+	<noscript>
+	  <meta http-equiv="refresh" content="0; URL=index-nojs.html">
+	</noscript>
 </head>
 <body>
-	<section>
+	<header>
 		<h1>Tosti met salami, prei en Boursin</h1>
-		<p>
-			Wat hebben we allemaal nodig voor een tosti met salami, prei en Boursin? Wij hebben je al een handje geholpen door de benodigdheden al op een rijtje te zetten. Maak een boodschappelijstje met alle benodigdheden.
-		</p>
-
-		<h2>Mijn boodschappenlijstje</h2>
-
-		<form action="mailto:nooroelimamdi@gmail.com" method="post">
-			<label>
-				<input type="checkbox"/>Wit- of volkorenbrood
-			</label>
-			<label>
-				<input type="checkbox"/>Plakje salami
-			</label>
-			<label>
-				<input type="checkbox"/>Kruidenkaas
-			</label>
-			<label>
-				<input type="checkbox"/>Preirintjes
-			</label>
-			<label>
-				<input type="checkbox"/>Olijfolie
-			</label>
-			<button type="submit">Bewaren</button>
-		</form>
+	</header>
+	<section>
+		<article>
+			<h1>Aan de slag!</h1>
+			<p>
+				Wat hebben we allemaal nodig voor een tosti met salami, prei en Boursin? Wij hebben je al een handje geholpen door de benodigdheden al op een rijtje te zetten. Maak een boodschappelijstje met alle benodigdheden.
+			</p>
+		</article>
+		<h2>Mijn boodschappenlijstje</h2>		
+		<ul id="grocery">
+			<li>Wit- of volkorenbrood</li>
+			<li>Plakje salami</li>
+			<li>Kruidenkaas</li>
+			<li>Preirintjes</li>
+			<li>Olijfolie</li>
+		</ul>
+		<div class="input-grocery">
+			<h3>Nog iets toevoegen aan het lijstje?</h3>
+			<input type="text" id="myInput" placeholder="Voeg extra boodschap-item toe">
+			<button onclick="addNewElement()" class="addBtn">Toevoegen</button>
+		</div>
 
 	</section>
-
+	
 	<script src="js/script.js"></script>
 </body>
 </html>

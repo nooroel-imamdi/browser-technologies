@@ -1,0 +1,190 @@
+body,
+html{
+  margin: 0;
+  background-color: #f9f7f5;
+  color: #414141;
+  font-family: 'Open sans', Helvetica, sans-serif;
+}
+header{
+  background-color: #ff8800;
+  padding: 16px;
+  padding: 1em;
+  margin-bottom: 16px;
+  margin-bottom: 1em;
+  color: #ffffff;
+}
+header h1{
+  margin: 0;
+  text-align: center;
+  font-size: 1.3em;
+}
+h2{
+  margin-top: 32px;
+  padding-left: 40px;
+}
+h3{
+  margin-top: 0;
+}
+p{
+  line-height: 1.6;
+}
+section{
+  width: 1024px;
+  width: 50%;
+  max-width: 35em;
+  margin-top: 16px;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+@media only screen and (max-width: 40em) {
+  section{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@supports (display: flex) {
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+article{
+  background-color: #e2f1fb;
+  padding-top: 8px;
+  padding-top: .5em;
+  padding-right: 24px;
+  padding-right: 1.5em;
+  padding-bottom: 8px;
+  padding-bottom: .5em;
+  padding-left: 24px;
+  padding-left: 1.5em;
+  border-top: 1px solid #50aecc;
+  border-left: 1px solid #50aecc;
+  border-bottom: 1px solid #50aecc;
+  border-right: 1px solid #50aecc;
+  font-size: .8em;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  margin-top: 16px;
+  margin-top: 1em;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #e2f1fb;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+  border: 0;
+  background: none;
+  height: 100%;
+  cursor: pointer;
+  font-size: 1em;
+  color: #414141;
+}
+
+.close:hover {
+  background-color: #0071B3;
+  color: white;
+}
+
+/* Style the header */
+.input-grocery {
+  background-color: #e2f1fb;
+  padding: 30px 40px;
+  text-align: left;
+}
+
+/* Clear floats after the header */
+.input-grocery:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  border: none;
+  width: 60%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 40%;
+  background: #0071B3;
+  color: #ffffff;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}

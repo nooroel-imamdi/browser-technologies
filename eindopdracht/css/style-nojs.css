@@ -1,0 +1,87 @@
+body,
+html{
+	margin: 0;
+	background-color: #f9f7f5;
+	color: #414141;
+	font-family: 'Open sans', Helvetica, sans-serif;
+}
+header{
+	background-color: #ff8800;
+	padding: 16px;
+	padding: 1em;
+	margin-bottom: 16px;
+	margin-bottom: 1em;
+	color: #ffffff;
+}
+header h1{
+	margin: 0;
+	text-align: center;
+	font-size: 1.3em;
+}
+p{
+	line-height: 1.6;
+}
+section{
+	width: 1024px;
+	width: 50%;
+	max-width: 35em;
+	margin-top: 16px;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+@media only screen and (max-width: 40em) {
+	section{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@supports (display: flex) {
+	body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+article{
+	background-color: #e2f1fb;
+	padding-top: 8px;
+	padding-top: .5em;
+	padding-right: 24px;
+	padding-right: 1.5em;
+	padding-bottom: 8px;
+	padding-bottom: .5em;
+	padding-left: 24px;
+	padding-left: 1.5em;
+	border-top: 1px solid #50aecc;
+	border-left: 1px solid #50aecc;
+	border-bottom: 1px solid #50aecc;
+	border-right: 1px solid #50aecc;
+	font-size: .8em;
+}
+label{
+	display: block;
+	background-color: #fff;
+	padding: 16px;
+	padding: 1.5em;
+	margin-bottom: 16px;
+	margin-bottom: 1em;
+	border-bottom: solid 1px #d9d5d0;
+}
+button{
+	background: #0071B3;
+	width: 100%;
+	border: 0;
+	font-size: 1em;
+	color: #fff;
+	padding-top: 16px;
+	padding-top: 1em;
+	padding-bottom: 16px;
+	padding-bottom: 1em;
+	cursor: pointer;
+}
+form{
+	margin-bottom: 32px;
+	margin-bottom: 2em;
+}
