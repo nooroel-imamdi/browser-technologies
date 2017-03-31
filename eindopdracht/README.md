@@ -17,3 +17,4 @@ Deze opdracht is in drie lagen opgebouwd: HTML, CSS en JavaScript. Om deze facet
 - CSS: https://github.com/nooroel-imamdi/browser-technologies/tree/css/eindopdracht
 - JavaScript: https://github.com/nooroel-imamdi/browser-technologies/tree/javascript/eindopdracht
 
+LIVE - http://imamovicdesign.com/minor/
