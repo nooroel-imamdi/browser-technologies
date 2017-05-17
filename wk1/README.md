@@ -102,6 +102,11 @@ Er is gebruik gemaakt van semantische HTML, met betekenisvolle HTML-tags als `in
 
 ![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/muistrack.png?raw=true)
 
+### Screen Reader
+De velden, knoppen en item zijn toegankelijk voor de screenreader. Echter zijn sommige onderdelen niet duidelijk genoeg. Zo wordt het niet helemaal duidelijk voor de screenreader wanneer deze zich bevindt in de lijst van woningen. Verder dan straatnamen komt de screenreader niet. Met aria-labels zouden er elementen net wat duidelijk gemaakt kunnen worden.
+
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/screenreader.png?raw=true)
+
 #### Tools:
 - Sim Daltonism
 - Contrast Ratio Checker (Google Chrome extensie)
