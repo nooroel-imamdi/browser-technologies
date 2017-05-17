@@ -26,7 +26,7 @@ Het overwegen van de toepasbaarheid van een JavaScript library is afhankelijk of
 ## Website uit directe omgeving met problemen
 
 ### JavaScript
-#### Voetbalzone: 
+#### Voetbalzone:
 login werkt niet, essentieel om in te loggen met mee te kunnen praten over voetbal; de slogan van de website.
 tab onder ‘wedstrijden werkt niet’
 
@@ -34,10 +34,10 @@ tab onder ‘wedstrijden werkt niet’
 ‘Topstories’ stort in: Teksten lopen over elkaar heen.
 Sliders werken niet optimaal, werk bruikbaar.
 Zoekfunctie werkt niet.
-Tab rond nieuws categorieën werkt niet. 
+Tab rond nieuws categorieën werkt niet.
 
 ### Kleur
-Voetbalzone: 
+Voetbalzone:
 Focus niet zichtbaar.
 Hover button te subtiel
 
@@ -60,15 +60,15 @@ Bij aanvang van dit onderzoek zijn de afbeeldingen uitgezet via de instellingen 
 #### Verbeterpunten
 Voor screen readers is een invulde alt-attribuut natuurlijk zéér gewenst. Daarnaast is het van belang dat de naam van de website ten allen tijde zichtbaar is, tekstueel of visueel.
 
-![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/afbeeldingen.png?raw=true)
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/afbeeldingen.png?raw=true)
 
 
 ### 2. Custom fonts
 De custom fonts, in dit geval Google Webfonts, zijn uitgeschakeld. Doordat achter de font-family-naam ‘sans-serif’ staat, vult de browser het ontbrekende font aan met een sans-serif-font.
 
-![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/fontstyle.png?raw=true)
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/fontstyle.png?raw=true)
 
-###3 Verbeterpunten
+### Verbeterpunten
 Deze stack kan echter veel specifieker, zodat je nog de controle behoudt op de vertoning van de fonts die het dichtst in de buurt van de meest gewenste font komt. Met slechts sans-serif als fallback geef je de controle uit handen.
 
 
@@ -79,19 +79,28 @@ De Funda app is volledig onbruikbaar zonder JavaScript. De inhoud van de app wor
 ### 4. Kleur
 Met behulp van de tool Sim Daltonism wordt getest hoe kleurblinden de website zien. Volgens het programma zijn de contrasten goed zichtbaar.
 
-![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/kleuren.png?raw=true)
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/kleuren.png?raw=true)
 
 #### Verbeterpunten
 De hover-states zijn te subtiel vormgeven. Kleurenblinden zien hierdoor het verschil niet altijd tussen een hover-state en een normale state. Het is dan ook zaak om die hover-state prominenter te vertonen.
 
+### 5. Internet
+De internetmeting op 2G middels Google Chrome devtool ziet er als volgt uit:
 
-### 5. Muis/trackpad
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/internetmeting.png?raw=true)
+
+Het duurt maar liefst 1.3 minuut om de hele pagina geladen te hebben. Uiteraard verschijnen de items boven de vouw als eerst waardoor de bezoekers enigszins als content voor het rapen heeft, maar desondanks blijft dit aantal hoog. Het heeft te maken het laden van de API, die op een reguliere verbinding ook enige tijd nodig heeft.
+
+### 6. Localstorage
+Binnen deze app is er geen gebruik gemaakt van `localstorage`.
+
+### 7. Cookies
+De app maakt geen gebruik van cookies.
+
+### 8. Keyboard
 Er is gebruik gemaakt van semantische HTML, met betekenisvolle HTML-tags als `input`, `a` en `select`. Bovendien zijn alle hover- en focus-states gestyled. Daarmee is de app met gemak te besturen met het toetsenbord en bovendien toegankelijk.
 
-![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/muistrack.png?raw=true)
-
-### 6. Cookies
-De app maakt geen gebruik van cookies.
+![alt tag](https://github.com/nooroel-imamdi/browser-technologies/blob/master/wk1/muistrack.png?raw=true)
 
 #### Tools:
 - Sim Daltonism
